@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Infrastructur
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "requests", "requests", "{B9098BC8-6252-4F80-B65B-8C23C7CFC897}"
 	ProjectSection(SolutionItems) = preProject
-		foo.http = foo.http
+		requests\subcriptions\CreateSubscription.http = requests\subcriptions\CreateSubscription.http
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Contracts", "src\GymManagement.Contracts\GymManagement.Contracts.csproj", "{7612FCDA-4437-478E-A7AE-3A701DEFC13E}"
