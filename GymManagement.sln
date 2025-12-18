@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.1.11312.151 d18.0
+VisualStudioVersion = 18.1.11312.151
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "requests", "requests", "{B9
 	ProjectSection(SolutionItems) = preProject
 		foo.http = foo.http
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymManagement.Contracts", "src\GymManagement.Contracts\GymManagement.Contracts.csproj", "{7612FCDA-4437-478E-A7AE-3A701DEFC13E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,6 +78,18 @@ Global
 		{1DC7742F-31A4-4447-925F-54BD9F8366C2}.Release|x64.Build.0 = Release|Any CPU
 		{1DC7742F-31A4-4447-925F-54BD9F8366C2}.Release|x86.ActiveCfg = Release|Any CPU
 		{1DC7742F-31A4-4447-925F-54BD9F8366C2}.Release|x86.Build.0 = Release|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Debug|x64.Build.0 = Debug|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Debug|x86.Build.0 = Debug|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Release|x64.ActiveCfg = Release|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Release|x64.Build.0 = Release|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Release|x86.ActiveCfg = Release|Any CPU
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +99,7 @@ Global
 		{071D0224-E462-4983-9885-81E63C455926} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{5E14AE3D-5F14-4422-A7B7-1E60BFF7C598} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{1DC7742F-31A4-4447-925F-54BD9F8366C2} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{7612FCDA-4437-478E-A7AE-3A701DEFC13E} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3993403E-0F45-4F50-862B-790206DEF5E5}

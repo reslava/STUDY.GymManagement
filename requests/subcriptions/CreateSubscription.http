@@ -1,0 +1,14 @@
+@host=..
+@adminId=..
+ 
+POST {{host}}/Subscriptions 
+Content-Type: application/json
+{
+  "SubscriptionType" = "Free", //Starter, Pro
+  "AdminId" = "{{adminId}}"
+}
+
+# {
+#   "Id" = "{{Id}}"
+#   "SubscriptionType" = "Free", //Starter, Pro#   
+# }
