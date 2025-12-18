@@ -4,7 +4,7 @@ using System.Text;
 
 namespace GymManagement.Application.Services
 {
-    public interface ISubscriptionsService
+    public interface ISubscriptionsWriteService
     {
         Guid CreateSubscription(Guid subscriptionId, string subscriptionType);
     }
