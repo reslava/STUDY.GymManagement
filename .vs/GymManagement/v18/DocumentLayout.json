@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "J:\\src\\STUDY\\Gym\\GymManagement\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B9098BC8-6252-4F80-B65B-8C23C7CFC897}|NewFolder1{B9098BC8-6252-4F80-B65B-8C23C7CFC897}|J:\\src\\STUDY\\Gym\\GymManagement\\foo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{B9098BC8-6252-4F80-B65B-8C23C7CFC897}|NewFolder1{B9098BC8-6252-4F80-B65B-8C23C7CFC897}|solutionrelative:foo.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CC764F-3737-4808-AF37-A1521BF5E541}|src\\GymManagement.Api\\GymManagement.Api.csproj|j:\\src\\study\\gym\\gymmanagement\\src\\gymmanagement.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CC764F-3737-4808-AF37-A1521BF5E541}|src\\GymManagement.Api\\GymManagement.Api.csproj|solutionrelative:src\\gymmanagement.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2CC764F-3737-4808-AF37-A1521BF5E541}|src\\GymManagement.Api\\GymManagement.Api.csproj|j:\\src\\study\\gym\\gymmanagement\\src\\gymmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2CC764F-3737-4808-AF37-A1521BF5E541}|src\\GymManagement.Api\\GymManagement.Api.csproj|solutionrelative:src\\gymmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,50 +9,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "J:\\src\\STUDY\\Gym\\GymManagement\\src\\GymManagement.Api\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "src\\GymManagement.Api\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "J:\\src\\STUDY\\Gym\\GymManagement\\src\\GymManagement.Api\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "src\\GymManagement.Api\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T12:00:31.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "J:\\src\\STUDY\\Gym\\GymManagement\\src\\GymManagement.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\GymManagement.Api\\Program.cs",
-              "ToolTip": "J:\\src\\STUDY\\Gym\\GymManagement\\src\\GymManagement.Api\\Program.cs",
-              "RelativeToolTip": "src\\GymManagement.Api\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T10:37:01.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "foo.http",
-              "DocumentMoniker": "J:\\src\\STUDY\\Gym\\GymManagement\\foo.http",
-              "RelativeDocumentMoniker": "foo.http",
-              "ToolTip": "J:\\src\\STUDY\\Gym\\GymManagement\\foo.http",
-              "RelativeToolTip": "foo.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-12-18T10:35:03.272Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
             }
           ]
         }
