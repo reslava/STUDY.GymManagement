@@ -1,15 +1,17 @@
-﻿using MediatR;
+﻿using ErrorOr;
+using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace GymManagement.Application.Subscriptions.Commands.CreateSubscription
 {
-    internal sealed class CreateSubscriptionCommandHandler : IRequestHandler<CreateSubscriptionCommand, Guid>
+    internal sealed class CreateSubscriptionCommandHandler : IRequestHandler<CreateSubscriptionCommand, ErrorOr<Guid>>
     {
-        public Task<Guid> Handle (CreateSubscriptionCommand request, CancellationToken cancellationToken)
+        public async Task<ErrorOr<Guid>> Handle (CreateSubscriptionCommand request, CancellationToken cancellationToken)
         {
-            return Task.FromResult(Guid.NewGuid());
+            return Error.
+            return await Task.FromResult(Guid.NewGuid());
         }
     }
 }
