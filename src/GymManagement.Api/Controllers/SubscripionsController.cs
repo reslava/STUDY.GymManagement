@@ -29,7 +29,12 @@ public class SubscriptionsController : ControllerBase
 
         var createSubscriptionResult = await _mediator.Send (command);
 
-        if(createSubscriptionResult.IsError)
+        return createSubscriptionResult.MatchFirst (
+            guid => Ok(new SubscriptionResponse(guid, request.SubscriptionType)),
+            ErrorEventArgs => Problem());
+
+        /* Now implemented by 'ErrorOr.MatchFirst'
+         * if(createSubscriptionResult.IsError)
         {
             return Problem ();
         }
@@ -37,7 +42,7 @@ public class SubscriptionsController : ControllerBase
         var response = new SubscriptionResponse (
             createSubscriptionResult.Value, 
             request.SubscriptionType);
-        return Ok(response);        
+        return Ok(response);*/        
     }
 
 }
